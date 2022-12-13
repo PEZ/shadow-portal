@@ -1,0 +1,8 @@
+{:paths ["src" "test" "env/dev"]
+ :deps {binaryage/devtools {:mvn/version "1.0.6"}
+        djblue/portal {:mvn/version "0.35.0"}
+        org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/clojurescript {:mvn/version "1.11.60"}
+        reagent/reagent {:mvn/version "1.1.1"}
+        thheller/shadow-cljs {:mvn/version "2.20.14"}}
+}

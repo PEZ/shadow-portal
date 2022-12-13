@@ -1,0 +1,17 @@
+{
+  "calva.replConnectSequences": [
+    {
+      "name": "shadow-portal",
+      "projectType": "shadow-cljs",
+      "afterCLJReplJackInCode": "(do (require '[portal.setup :as p]) (p/start!))",
+      "cljsType": "shadow-cljs",
+      "menuSelections": {
+        "cljsLaunchBuilds": [
+          ":app",
+          ":test",
+        ],
+        "cljsDefaultBuild": ":app"
+      }
+    }
+  ],
+}

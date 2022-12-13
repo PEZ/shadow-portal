@@ -1,0 +1,18 @@
+{:deps true
+ :dev-http
+ {8020 "public"}
+ :builds
+ {:app {:target :browser
+        :output-dir "public/js/compiled"
+        :asset-path "/js/compiled"
+        :modules {:main {:init-fn main.core/init}}
+        :build-hooks [(portal.shadow.remote/hook)]
+        :devtools {:preloads [devtools.preload
+                              portal.setup]}}
+  :test {:target :node-test
+         :autorun true
+         :output-to "target/node-test/tests.js"
+         :ns-regexp ".*-test$"
+         :build-hooks [(portal.shadow.remote/hook)]
+         :devtools {:preloads [devtools.preload
+                               portal.setup]}}}}
