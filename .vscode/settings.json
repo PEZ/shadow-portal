@@ -3,7 +3,7 @@
     {
       "name": "shadow-portal",
       "projectType": "shadow-cljs",
-      "afterCLJReplJackInCode": "(do (require '[portal.setup :as p]) (p/start!))",
+      "afterCLJReplJackInCode": "(do (require '[portal.setup :as p]) (p/start!  {:launcher :vs-code}))",
       "cljsType": "shadow-cljs",
       "menuSelections": {
         "cljsLaunchBuilds": [
