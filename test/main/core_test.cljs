@@ -9,6 +9,6 @@
   (is (= :bar :baz)))
 
 (comment
-  (cljs.test/run-all-tests)
+  (cljs.test/run-tests 'main.core-test)
   :rcf)
 

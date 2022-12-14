@@ -1,4 +1,6 @@
-{:deps true
+{;:lein {:profile "+portal"}
+ :deps {:aliases [:portal]}
+ :nrepl {:middleware [portal.nrepl/wrap-portal]}
  :dev-http
  {8020 "public"}
  :builds

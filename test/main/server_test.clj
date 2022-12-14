@@ -9,5 +9,5 @@
   (is (= :bar :baz)))
 
 (comment
-  (clojure.test/run-all-tests)
+  (clojure.test/run-tests 'main.server-test)
   :rcf)
