@@ -10,7 +10,7 @@ As of this writing, [Calva](https://calva.io) is assumed. Let's hope we can see 
 
 0. `npm i`
 
-With Calva installed:
+With Calva and the Portal VS Code extension installed:
 
 1. Open the project in VS Code
 2. Run: **Calva: Start Project REPL and Connect (aka Jack-in)**
