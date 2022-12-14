@@ -1,4 +1,4 @@
-# Test project for Portal with shadow-cljs
+# Template project for Portal with shadow-cljs
 
 This project contains a [Clojure](https://clojure.org) ”server” ([src/main/server.clj](src/main/server.clj)) and a [ClojureScript](https://clojurescript.org) frontend, managed by [shadow-cljs](https://shadow-cljs.github.io/). The project is also configured to automatically give you [Portal](https://github.com/djblue/portal) help with navigating data.
 
