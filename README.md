@@ -2,6 +2,8 @@
 
 This project contains a [Clojure](https://clojure.org) ”server” ([src/main/server.clj](src/main/server.clj)) and a [ClojureScript](https://clojurescript.org) frontend, managed by [shadow-cljs](https://shadow-cljs.github.io/). The project is also configured to automatically give you [Portal](https://github.com/djblue/portal) help with navigating data.
 
+![Portal shadow-cljs Calva](shadow-portal-screenshot.png)
+
 As of this writing, [Calva](https://calva.io) is assumed. Let's hope we can see config added for other Clojure development environments too. PRs welcome!
 
 ## How to use
